@@ -18,11 +18,10 @@ function About() {
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 
                 <div>
-            <img src={portImage} alt="Adedamola Ajasa's image" className='max-w-[300] ' />
-
-                </div>
-                <div>
-                <p className=' text-2xl font-bold mb-10'>Hi. I'm Adedamola Ajasa, nice to meet you. Please take a look around.</p>
+                <p className=' text-2xl font-bold mb-10 '>Hi. I'm Adedamola Ajasa, nice to meet you. Please take a look around.</p>
+                <hr/>
+                <br/>
+                <br/>
                     <p> After graduating as a mechanical engineer, 
                     I decided to take the leap to pursue a career in software engineering. 
                     I enrolled in a full-time immersive software engineering program at Moringa School.
@@ -30,6 +29,9 @@ function About() {
                     has been the best decision I have ever made in my life. 
                     I love to learn new technologies and flex my creativity to create amazing things.
                     </p>
+                </div>
+                <div>
+                <img src={portImage} alt="Adedamola Ajasa's image" className='max-w-[300]  ' />
                 </div>
                 <div>
                 </div>

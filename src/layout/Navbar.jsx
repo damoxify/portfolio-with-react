@@ -15,7 +15,7 @@ function Navbar(){
         </a>
         </div>
 
-        <ul className='hidden md:flex md:items-center space-x-10 cursor-pointer'>  
+        <ul className='hidden md:flex md:items-center space-x-10 cursor-pointer '>  
             <li className='hover:border-b-4 border-green-600 '>Home</li>
             <li className='hover:border-b-4 border-green-600 '>About</li>
             <li className='hover:border-b-4 border-green-600 '>Projects</li>
