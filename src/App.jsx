@@ -2,6 +2,7 @@ import React from "react"
 import Home from "./pages/Home"
 import Navbar from "./layout/Navbar"
 import About from "./pages/About"
+import Skills from "./pages/Skills"
 import AnimatedCursor from "react-animated-cursor"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
+      <Skills/>
     </div>
     
   )

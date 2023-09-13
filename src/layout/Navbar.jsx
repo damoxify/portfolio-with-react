@@ -18,7 +18,7 @@ function Navbar(){
         <ul className='hidden md:flex md:items-center space-x-10 cursor-pointer'>  
             <li className='hover:text-white'>Home</li>
             <li className='hover:text-white'>About</li>
-            <li className='hover:text-white'>Skills</li>
+            <li className='hover:text-white'>Projects</li>
             <li className='hover:text-white'>Contact</li>
         </ul>
       
