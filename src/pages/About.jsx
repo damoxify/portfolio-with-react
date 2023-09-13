@@ -3,7 +3,7 @@ import portImage from '../assets/images/portImage.jpg'
 
 function About() {
   return (
-    <div className='w-full h-screen bg-black text-white'>
+    <div className='w-full h-screen bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r text-white'>
             
       <div className='flex flex-col justify-center items-center w-full h-full '>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 '>
