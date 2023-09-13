@@ -7,7 +7,7 @@ function Home(){
         <h1 className='text-2xl text-black-800 font-bold'>Hi, my name is</h1>
         <h1 className='text-4xl sm:text-7xl  font-bold text-[#b6c0e0]'>Adedamola Ajasa,</h1>
         <h2 className='text-4xl sm:text-7xl  font-bold text-[#8892b0]'>I'm a Frontend developer.</h2>
-        <p className='text-[#7281ab] py-8 max-w-[700px]'>I'm a frontend developer specializing in building (and occasionally
+        <p className='text-black py-8 max-w-[700px]'>I'm a frontend developer specializing in building (and occasionally
             designing ) exceptional digital experiences. Currently, I'm focused on
              building responsive full-stack web applications.</p>
       </div>
