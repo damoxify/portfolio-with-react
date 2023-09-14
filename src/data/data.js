@@ -6,7 +6,7 @@ import web from '../assets/images/feedback.jpg'
 export const data=[
     {
         id:1,
-        name:" Artist booking site (Full-stack web app)",
+        name:" Interactive Quiz App",
         image:booking,
         github:"https://github.com/damoxify/FYYUR_class_project",
         live:"",
