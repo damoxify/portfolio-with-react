@@ -12,17 +12,17 @@ function Navbar(){
     }
   return (
     <div className='fixed w-full h-[60px] flex justify-between items-center px-4 bg-gradient-to-r from-gray-600 to-white'>
-        <div className='ml-0 bg-left-top hover:scale-100 duration-75 overflow-hidden hover:bg-slate-600 '>
-        <a href="#home" alt='return home'>
+        <div className='ml-0 bg-left-top hover:scale-100 duration-75 overflow-hidden hover:bg-slate-600 h-[60px]'>
+        <Link  to="home" smooth={true}  duration={500}>
             <img src={logo} alt='logo' className='max-w-[100px]'/>
-        </a>
+            </Link>
         </div>
 
-        <ul className='hidden md:flex md:items-center space-x-10 cursor-pointer '>  
-            <li className='hover:border-b-4 border-green-600 '><Link  to="home" smooth={true}  duration={500}>Home</Link></li>
-            <li className='hover:border-b-4 border-green-600 '><Link  to="about" smooth={true}  duration={500}>About</Link></li>
-            <li className='hover:border-b-4 border-green-600 '><Link  to="skills" smooth={true}  duration={500}>Skills</Link></li>
-            <li className='hover:border-b-4 border-green-600 '><Link  to="projects" smooth={true}  duration={500}>Projects</Link></li>
+        <ul className='hidden md:flex md:items-center space-x-10 cursor-pointer'> 
+            <li className='hover:border-b-4 border-green-600 '> <Link  to="home" smooth={true}  duration={500}>Home</Link></li>
+            <li className='hover:border-b-4 border-green-600 '> <Link  to="about" smooth={true}  duration={500}>About</Link></li>
+            <li className='hover:border-b-4 border-green-600 '> <Link  to="skills" smooth={true}  duration={500}>Skills</Link></li>
+            <li className='hover:border-b-4 border-green-600 '> <Link  to="projects" smooth={true}  duration={500}>Projects</Link></li>
             <li className=' hover:border-b-4 border-green-600 '> <Link  to="contact" smooth={true}  duration={500}>Contact</Link></li>
         </ul>
 
@@ -51,7 +51,6 @@ function Navbar(){
         </Link></li>
 </ul>
     
-
 
     </div>
   )

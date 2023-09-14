@@ -20,10 +20,10 @@ function Sidebar(){
             <FaLinkedin size={30}/> 
             </a>
         </li>
-        <li className='w-[70px] h-[60px] flex justify-between items-center mr-[-100px]  duration-300  bg-opacity-0 hover:bg-black hover:rounded-3xl'>
+        <li className='w-[70px] h-[60px] flex justify-between items-center mr-[-100px]  duration-300  bg-opacity-0 hover:bg-white hover:rounded-3xl'>
             <a className='flex justify-evenly items-center w-full text-gray-300'
             href="https://www.github.com/damoxify"rel='noopener noreferrer' target={'_blank'}>
-               <FaGithub size={30}/> 
+               <FaGithub size={30} className='hover:bg-black rounded-3xl'/> 
             </a>
         </li>  <li className='w-[70px] h-[60px] flex justify-between items-center mr-[-100px] duration-300  bg-opacity-0 hover:bg-[#0b3b30] hover:rounded-3xl'>
             <a className='flex justify-evenly items-center w-full text-gray-300'

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home(){
   return (
-    <div className='w-full h-screen bg-slate-600'>
+    <div name= 'home' className='w-full h-screen bg-slate-600'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <h1 className='text-2xl text-black-800 font-bold'>Hi, my name is</h1>
         <h1 className='text-4xl sm:text-7xl  font-bold text-[#b6c0e0]'>Adedamola Ajasa,</h1>

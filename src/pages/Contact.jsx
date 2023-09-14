@@ -17,7 +17,7 @@ function Contact() {
         });
       }
   return (
-    <div name='contact' className='w-full h-screen bg-black flex justify-center items-center p-4'>
+    <div name='contact' className='w-full h-full bg-black flex justify-center items-center p-4'>
       <form onSubmit={sendEmail} method='POST' action='https://getform.io/f/9fad6b9f-edcc-47d5-850f-66eca4419e97' className='flex flex-col max-w-[600px] w-full mt-20'>
         <div>
           <p className='text-4xl font-bold  inline border-b-4 border-green-600 text-gray-300 ml-20 mr-0'>Contact</p>
