@@ -70,4 +70,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Thank you for using the React Vite Portfolio with Tailwind CSS. If you have any questions or need further assistance, please don't hesitate to contact me at [your-email@example.com](mailto:adedamola.ajasa@student.moringaschool.com). Happy coding!
+Thank you for using the React Vite Portfolio with Tailwind CSS. If you have any questions or need further assistance, please don't hesitate to contact me at [Adedamola's email](mailto:adedamola.ajasa@student.moringaschool.com). Happy coding!
