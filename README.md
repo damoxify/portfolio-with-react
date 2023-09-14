@@ -27,13 +27,13 @@ Follow these steps to set up the React Vite Portfolio on your local machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/react-vite-portfolio.git
+   git clone https://github.com/damoxify/portfolio-with-react.git
    ```
 
 2. Change the directory to the project folder:
 
    ```bash
-   cd react-vite-portfolio
+   cd portfolio-with-react
    ```
 
 3. Install dependencies using npm or yarn:
@@ -56,9 +56,9 @@ yarn dev
 
 This will start the development server, and you can access the portfolio website in your web browser at `http://localhost:3000`.
 
-You can modify the content of the portfolio by editing the components in the `src/pages` directory. You can also update your personal information by editing the `Navbar` component.
+You can modify the content of the portfolio by editing the components in the `src/pages` directory. You can also update your personal information by editing the `Navbar` and `Sidebar` component.
 
-To customize the styles, Tailwind CSS is used throughout the project. You can make changes to the styles in the `src/styles` directory.
+To customize the styles, Tailwind CSS is used throughout the project. You can make changes to the styles in each component in `src/pages` directory.
 
 ## Contributing
 
@@ -70,4 +70,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Thank you for using the React Vite Portfolio with Tailwind CSS. If you have any questions or need further assistance, please don't hesitate to contact us. Happy coding!
+Thank you for using the React Vite Portfolio with Tailwind CSS. If you have any questions or need further assistance, please don't hesitate to contact me at [your-email@example.com](mailto:adedamola.ajasa@student.moringaschool.com). Happy coding!
